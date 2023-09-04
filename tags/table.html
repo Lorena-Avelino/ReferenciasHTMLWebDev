@@ -1,0 +1,161 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'/>
+    <link rel="stylesheet" type="text/css" href="../css/global.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/about.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/tags.css" media="screen" />
+    <link rel="icon" href="../icones/logo.svg" type="image/svg+xml" />
+    <title>Manual do HTML5</title>
+</head>
+
+<body>
+    <div class="menu-container">
+        <div class="menu-container-links">
+            <div>
+                <img class="menu-image" src="../icones/logo.svg">
+            </div>
+            <div>
+                <a class="menu-padding" href='../index.html'>Home Page</a>
+                <a class="menu-padding" href='../references.html'>Referências</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons-container">
+        <a href="article.html">
+            <button class="buttons">Anterior</button>
+        </a>
+        <a href="button.html">
+            <button class="buttons">Próximo</button>
+        </a>
+    </div>
+
+    <div class="tag-container">
+        <div>
+            <h1>&lt;table</article>&gt;</h1>
+            <a>
+                <p>A tag <span class="color-text-orange">&lt;table&gt;</span> exibe dados de maneira tabular e estruturada.</p>
+                
+                <p>Uma tabela HTML consiste em um elemento <span class="color-text-orange">&lt;table&gt;</span> e um ou mais elementos <span class="color-text-orange">&lt;tr&gt;</span>, 
+                    <span class="color-text-orange">&lt;th&gt;</span> e <span class="color-text-orange">&lt;td&gt;</span>.
+
+                    O elemento <span class="color-text-orange">&lt;tr&gt;</span> define uma linha da tabela, 
+                    o elemento <span class="color-text-orange">&lt;th&gt;</span> define um cabeçalho de tabela 
+                    e o elemento <span class="color-text-orange">&lt;td&gt;</span> define uma célula da tabela.
+                    
+                    Uma tabela HTML também pode incluir elementos <span class="color-text-orange">&lt;caption&gt;</span>, 
+                    <span class="color-text-orange">&lt;colgroup&gt;</span>,
+                    <span class="color-text-orange">&lt;thead&gt;</span>, 
+                    <span class="color-text-orange">&lt;tfoot&gt;</span> e 
+                    <span class="color-text-orange">&lt;tbody&gt;</span>.
+                </p>
+
+            </a>
+        </div>
+
+        <div>
+            <h2>Exemplo</h2>
+            <p>Uma tabela simples de HTML, contendo duas colunas e duas linhas: </p>
+
+            <div class="example-code">
+                <code>
+                    <p>
+                        &lt;!DOCTYPE html&gt;<br>
+                        &nbsp;&nbsp;&lt;html&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;style&gt;<br><br>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;table, th, td {
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border:1px solid black;
+                            <br>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+                        
+                        <br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/style&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&lt;/head&gt;<br><br>
+
+                        &lt;body&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&lt;h1>Elemento da Tabela&lt;/h1&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;table&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt; Mês &lt;/th&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt; Economia &lt;/th&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt; Janeiro &lt;/th&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt; R$100 &lt;/th&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt; Fevereiro &lt;/th&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt; R$80 &lt;/th&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br><br>
+
+                        &lt;/body&gt;<br>
+                        &lt;/html&gt;<br>
+                    </p>
+                    </code>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h2>Suporte ao navegador</h2>
+                <p>A tag <span class="color-text-orange">&lt;article&gt;</span> é compatível com todos
+                    os principais navegadores.</p>
+                <img class="tag-image" src="../support/all.svg">
+            </div>
+        </div>
+
+        <div>
+            <h2>Configurações padrão de CSS</h2>
+            <p>
+                A maioria dos navegadores exibirá o elemento <span class="color-text-orange">&lt;tsble&gt;</span> com
+                os seguintes valores padrão:
+            </p>
+
+
+            <div class="example-code">
+                <code>
+                        <p>
+                            table {
+                                <br>
+                                &nbsp;&nbsp;display: table;<br>
+                                &nbsp;&nbsp;border-collapse: separate;<br>
+                                &nbsp;&nbsp;border-spacing: 2px;<br>
+                                &nbsp;&nbsp;border-color: gray;<br>
+                              }
+                        </p>
+                    </code>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="buttons-container">
+        <a href="article.html">
+            <button class="buttons">Anterior</button>
+        </a>
+        <a href="button.html">
+            <button class="buttons">Próximo</button>
+        </a>
+    </div>
+
+    <div class="footer-container">
+        <div>
+            <img class="footer-image" src="../icones/logo.svg">
+        </div>
+        <div>
+            <a class="footer-padding" href="index.html">Início</a>
+            <a class="footer-padding" href="references.html">Referências</a>
+            <a class="footer-padding" href="about.html">Sobre nós</a>
+        </div>
+        <div class="footer-copyright">
+            <a>Copyright&copy;2022</a>
+        </div>
+    </div>
+</body>
+
+</html>

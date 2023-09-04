@@ -1,0 +1,199 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'/>
+    <link rel="stylesheet" type="text/css" href="../css/global.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/about.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/tags.css" media="screen" />
+    <link rel="icon" href="../icones/logo.svg" type="image/svg+xml" />
+    <title>Manual do HTML5</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu-container">
+        <div class="menu-container-links">
+            <div>
+                <img class="menu-image" src="../icones/logo.svg">
+            </div>
+            <div>
+                <a class="menu-padding" href='../index.html'>Home Page</a>
+                <a class="menu-padding" href='../references.html'>Referências</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons-container">
+        <a href="table.html">
+            <button class="buttons">Anterior</button>
+        </a>
+        <a href="article.html">
+            <button class="buttons">Próximo</button>
+        </a>
+    </div>
+
+    <div class="tag-container">
+        <div>
+            <h1>&lt;button</article>&gt;</h1>
+            <a>
+                <p>A tag <span class="color-text-orange">&lt;button&gt;</span> define um botão clicável. </p>
+                
+                <p>
+                    Dentro de um elemento <span class="color-text-orange">&lt;button&gt;</span> você pode colocar texto (e tags como 
+                    <span class="color-text-orange">&lt;i&gt;</span>, 
+                    <span class="color-text-orange">&lt;b&gt;</span>, 
+                    <span class="color-text-orange">&lt;strong&gt;</span>, 
+                    <span class="color-text-orange">&lt;br&gt;</span>, 
+                    <span class="color-text-orange">&lt;img&gt;</span>, etc.). 
+                    Isso não é possível com um botão criado com o elemento <span class="color-text-orange">&lt;input&gt;</span>!
+                    
+                    <br> Dica: Sempre especifique o atributo type para um elemento <span class="color-text-orange">&lt;button&gt;</span>, para informar aos navegadores que tipo de botão é.
+                    
+                    <br> Dica: você pode estilizar botões facilmente com CSS! Veja os exemplos abaixo ou visite nosso tutorial sobre botões CSS.
+                </p>
+
+            </a>
+        </div>
+
+        <div>
+            <h2> Atributos </h2>
+            <table>
+                <tr>
+                    <th>Atributo</th>
+                    <th>Valor</th>
+                    <th>Descrição</th>
+                </tr>
+                <tr>
+                    <th><u>autofocus</u></th>
+                    <th>autofocus</th>
+                    <th>Especifica que um botão deve receber foco automaticamente quando a página for carregada.</th>
+                </tr>
+                <tr>
+                    <th><u>disable</u></th>
+                    <th>disable</th>
+                    <th>Especifica que um botão deve ser desabilitado.</th>
+                </tr>
+                <tr>
+                    <th><u>form</u></th>
+                    <th>form_id</th>
+                    <th>Especifica a qual formulario o botão pertence.</th>
+                </tr>
+                <tr>
+                    <th><u>formaction</u></th>
+                    <th>URL</th>
+                    <th>Especifica para onde enviar os dados do formulário quando um formulário é enviado. Somente para type="enviar".</th>
+                </tr>
+                <tr>
+                    <th><u>formenctype</u></th>
+                    <th>aplication/x-www-form-urlencoded, multipart/form-data ou text/pain</th>
+                    <th>Especifica como os dados do formulário devem ser codificados antes de serem enviados para um servidor. Somente para type="enviar".</th>
+                </tr>
+                <tr>
+                    <th><u>formmethod</u></th>
+                    <th>get<br> post</th>
+                    <th>Especifica como enviar os dados do formulário (qual método HTTP usar). Somente para type="enviar".</th>
+                </tr>
+                <tr>
+                    <th><u>formnovalidate</u></th>
+                    <th>formnovalidate</th>
+                    <th>
+                        Specifies that the form-data should not be validated on submission. Only for type="submit"
+                        Especifica que os dados do formulário não devem ser validados no envio. Somente para type="enviar".</th>
+                </tr>
+                <tr>
+                    <th><u>formtarget</u></th>
+                    <th>_blank<br> _self<br> _parent<br> _top<br> framename.</th>
+                    <th>Especifica onde exibir a resposta após enviar o formulário. Somente para type="enviar".</th>
+                </tr>
+                <tr>
+                    <th><u>name</u></th>
+                    <th>name</th>
+                    <th>Especifica um nome para o botão.</th>
+                </tr>
+                <tr>
+                    <th><u>type</u></th>
+                    <th>button<br> reset<br> submit<br> </th>
+                    <th>Especifica o tipo do botão.</th>
+                </tr>
+                <tr>
+                    <th><u>value</u></th>
+                    <th>text</th>
+                    <th>Especifica o valor inicial para o botão.</th>
+                </tr>
+        </table>
+        </div>
+
+        <div>
+            <h2>Exemplo</h2>
+            <p>Uma tabela simples de HTML, contendo duas colunas e duas linhas: </p>
+
+            <div class="example-code">
+                <code>
+                    <p>
+                        &lt;!DOCTYPE html&gt;<br>
+                        &nbsp;&nbsp;&lt;html&gt;<br>
+
+                        &lt;body&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&lt;h1>Elemento do Botão&lt;/h1&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;button type="button" onclick="alert("Hello world")"&gt;Clique em Mim!!&lt;/button&gt;
+
+                        <br>
+                        &lt;/body&gt;<br>
+                        &lt;/html&gt;<br>
+                    </p>
+                    </code>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h2>Suporte ao navegador</h2>
+                <p>A tag <span class="color-text-orange">&lt;article&gt;</span> é compatível com todos
+                    os principais navegadores.</p>
+                <img class="tag-image" src="../support/all.svg">
+            </div>
+        </div>
+
+        <div>
+            <h2>Configurações padrão de CSS</h2>
+            <p>
+                Nenhuma!
+            </p>
+        </div>
+
+    </div>
+
+    <div class="buttons-container">
+        <a href="table.html">
+            <button class="buttons">Anterior</button>
+        </a>
+        <a href="article.html">
+            <button class="buttons">Próximo</button>
+        </a>
+    </div>
+
+    <div class="footer-container">
+        <div>
+            <img class="footer-image" src="../icones/logo.svg">
+        </div>
+        <div>
+            <a class="footer-padding" href="index.html">Início</a>
+            <a class="footer-padding" href="references.html">Referências</a>
+            <a class="footer-padding" href="about.html">Sobre nós</a>
+        </div>
+        <div class="footer-copyright">
+            <a>Copyright&copy;2022</a>
+        </div>
+    </div>
+</body>
+
+</html>
