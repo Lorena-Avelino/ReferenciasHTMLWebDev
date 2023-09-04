@@ -5,7 +5,7 @@ Desenvolvimento Web - IFNMG, ministrada pelo Professor Luis Guisso. O trabalho c
 na implementação de um website estático desenvolvido em HTML5 e CSS3.
 
 # Site
-- Acesse o website em [Referências HTML5]().
+- Acesse o website em [Referências HTML5](https://lorena-avelino.github.io/ReferenciasHTMLWebDev/).
 
 ### Equipe: 
 Deise Santana, Friedrich Naum, Lorena Avelino e Mattheus Mazzillio
