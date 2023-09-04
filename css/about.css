@@ -1,0 +1,49 @@
+/* About Us */
+.about-container {
+    width: 90vw;
+    background: #13096c;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0rem;
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+.about-container-links {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.about-container-icons {
+    margin-left: 1rem;
+}
+
+.about-cards {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 90vw;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+    padding: 2rem 1rem;
+    background-color: #25189b;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Footer About */
+.about-image {
+    border-radius: 150px;
+    width: 10rem;
+}

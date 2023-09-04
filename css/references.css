@@ -1,0 +1,25 @@
+/* References */
+.references-title {
+    padding: 0.5rem 0rem;
+    width: 90vw;
+}
+
+.references-container {
+    padding-bottom: 1rem;
+}
+
+.references-cards {
+    width: 90vw;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 24px;
+    box-sizing: border-box;
+}
+
+.references-card {
+    background: #25189b;
+    border-radius: 8px;
+    height: unset;
+    padding: 16px 26px;
+}

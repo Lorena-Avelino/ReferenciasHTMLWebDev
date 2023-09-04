@@ -1,0 +1,78 @@
+table {
+    border-collapse: separate;
+    border-spacing: 1rem;
+}
+
+td {
+    color: #FFFFFF;
+    text-decoration: none; 
+    vertical-align: text-top;
+    word-wrap: break-word;
+}
+
+table tr:hover {background-color: #25189b;}
+
+.buttons-container {
+    margin: 1rem 0.5rem;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    color: #FFFFFF;
+    background-color: #FF9E00;
+    opacity : 0.9;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.tag-container {
+    width: 80vw;
+}
+
+.attributte-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+}
+
+.attributte-table {
+    height: auto;
+    background: #13096c;
+    border-radius: 8px;
+    align-items: left;
+    padding: 1rem 0rem 1rem 1rem;
+}
+
+.example-code {
+    height: auto; 
+    padding: 1rem 0rem 1rem 2rem; 
+    background: #13096c;
+    border-left: 8px solid #FF9E00;
+    border-radius: 8px;
+}
+
+.tag-image {
+    width: 80vw;
+}
+
+.output-container {
+    height: auto;
+    background: #13096c;
+    border-radius: 8px;
+    align-items: center;
+    padding: 1rem 0rem 1rem 2rem;
+}
+
+@media (max-width: 400px) {
+    .buttons {
+        width: 5rem;
+    }
+}
