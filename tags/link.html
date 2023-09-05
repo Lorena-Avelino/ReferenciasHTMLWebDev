@@ -1,0 +1,187 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'/>
+    <link rel="stylesheet" type="text/css" href="../css/global.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/about.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/tags.css" media="screen" />
+    <link rel="icon" href="../icones/logo.svg" type="image/svg+xml" />
+    <title>Manual do HTML5</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu-container">
+        <div class="menu-container-links">
+            <div>
+                <img class="menu-image" src="../icones/logo.svg">
+            </div>
+            <div>
+                <a class="menu-padding" href='../index.html'>Home Page</a>
+                <a class="menu-padding" href='../references.html'>Referências</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons-container">
+        <a href="button.html">
+            <button class="buttons">Anterior</button>
+        </a>
+        <a href="article.html">
+            <button class="buttons">Próximo</button>
+        </a>
+    </div>
+
+    <div class="tag-container">
+        <div>
+            <h1>&lt;link</article>&gt;</h1>
+            <a>
+                <p>A tag <span class="color-text-orange">&lt;link&gt;</span>  define o relacionamento entre o documento atual e um recurso externo.. </p>
+                
+                <p>
+                    A tag <span class="color-text-orange">&lt;link&gt;</span> é mais frequentemente usada para vincular folhas de estilo externas ou para adicionar um favicon ao seu site.
+                </p>
+
+                <p>
+                    O elemento <span class="color-text-orange">&lt;link&gt;</span> é um elemento vazio, contém apenas atributos.
+                </p>
+
+            </a>
+        </div>
+
+        <div>
+            <h2> Atributos </h2>
+            <table>
+                <tr>
+                    <th>Atributo</th>
+                    <th>Valor</th>
+                    <th>Descrição</th>
+                </tr>
+                <tr>
+                    <th><u>crossorigin</u></th>
+                    <th>anonymous<br> use-credentials</th>
+                    <th>Especifica como o elemento lida com solicitações de origem cruzada.</th>
+                </tr>
+                <tr>
+                    <th><u>href</u></th>
+                    <th>URL</th>
+                    <th>Especifica a localização do documento vinculado.</th>
+                </tr>
+                <tr>
+                    <th><u>hreflang</u></th>
+                    <th>language_code</th>
+                    <th>Especifica o idioma do texto no documento vinculado.</th>
+                </tr>
+                <tr>
+                    <th><u>media</u></th>
+                    <th>media_query</th>
+                    <th>Especifica em qual dispositivo o documento vinculado será exibido.</th>
+                </tr>
+                <tr>
+                    <th><u>referrerpolicy</u></th>
+                    <th>no-referrer<br>no-referrer-when-downgrade<br>origin<br>origin-when-cross-origin<br>unsafe-url</th>
+                    <th> Especifica qual referenciador usar ao buscar o recurso.</th>
+                </tr>
+                <tr>
+                    <th><u>rel</u></th>
+                    <th>alternate<br> author<br>dns-prefetch<br>help<br>icon<br>license<br>license<br>next<br>pingback<br>preconnect<br>prefetch<br>preload<br>prerender<br>prev<br>search<br>stylesheet</th>
+                    <th>Obrigatório. Especifica a relação entre o documento atual e o documento vinculado.</th>
+                </tr>
+                <tr>
+                    <th><u>sizes</u></th>
+                    <th>HeigthxWidth<br>any</th>
+                    <th> Especifica o tamanho do recurso vinculado. Somente para rel="icon".</th>
+                </tr>
+                <tr>
+                    <th><u>title</u></th>
+                    <th></th>
+                    <th>Define uma folha de estilo preferida ou alternativa.</th>
+                </tr>
+                <tr>
+                    <th><u>type</u></th>
+                    <th>media_type</th>
+                    <th>Especifica o tipo de mídia do documento vinculado.</th>
+                </tr>
+        </table>
+        </div>
+
+        <div>
+            <h2>Exemplo</h2>
+            <p>Uma tabela simples de HTML, contendo duas colunas e duas linhas: </p>
+
+            <div class="example-code">
+                <code>
+                    <p>
+                        &lt;!DOCTYPE html&gt;<br>
+                        &nbsp;&nbsp;&lt;html&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="stylesheet' href="styles.css"&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&lt;/head&gt;<br><br>
+                        &lt;body&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&lt;h1&gt;Hello World!&lt;/h1&gt;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&gt;Estou formatada com o linked style sheet.&lt;/h2&gt;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Eu também!!.&lt;/p&gt;
+
+                        <br>
+                        &lt;/body&gt;<br>
+                        &lt;/html&gt;<br>
+                    </p>
+                    </code>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h2>Suporte ao navegador</h2>
+                <p>A tag <span class="color-text-orange">&lt;link&gt;</span> é compatível com todos
+                    os principais navegadores.</p>
+                <img class="tag-image" src="../support/all.svg">
+            </div>
+        </div>
+
+        <div>
+            <h2>Configurações padrão de CSS</h2>
+            <p>
+                link {
+                    <br>
+                    &nbsp;&nbsp;display: none;<br>
+                }
+            </p>
+        </div>
+
+    </div>
+
+    <div class="buttons-container">
+        <a href="button.html">
+            <button class="buttons">Anterior</button>
+        </a>
+        <a href="link.html">
+            <button class="buttons">Próximo</button>
+        </a>
+    </div>
+
+    <div class="footer-container">
+        <div>
+            <img class="footer-image" src="../icones/logo.svg">
+        </div>
+        <div>
+            <a class="footer-padding" href="index.html">Início</a>
+            <a class="footer-padding" href="references.html">Referências</a>
+            <a class="footer-padding" href="about.html">Sobre nós</a>
+        </div>
+        <div class="footer-copyright">
+            <a>Copyright&copy;2022</a>
+        </div>
+    </div>
+</body>
+
+</html>
