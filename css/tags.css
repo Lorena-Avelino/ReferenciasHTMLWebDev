@@ -1,13 +1,11 @@
 table {
-    border-collapse: separate;
-    border-spacing: 1rem;
+    border-collapse: collapse;
 }
 
-td {
-    color: #FFFFFF;
-    text-decoration: none; 
-    vertical-align: text-top;
-    word-wrap: break-word;
+td, th {
+    border: 1px solid #0b0541;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 table tr:hover {background-color: #25189b;}
@@ -40,11 +38,10 @@ table tr:hover {background-color: #25189b;}
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80vw;
 }
 
 .attributte-table {
-    height: auto;
+    /* height: auto; */
     background: #13096c;
     border-radius: 8px;
     align-items: left;
