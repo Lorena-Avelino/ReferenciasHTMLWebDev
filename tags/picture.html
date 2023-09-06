@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'/>
+    <link rel="stylesheet" type="text/css" href="../css/global.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/about.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/tags.css" media="screen" />
+    <link rel="icon" href="../icones/logo.svg" type="image/svg+xml" />
+    <title>Manual do HTML5</title>
+</head>
+
+<body>
+    <div class="menu-container">
+        <div class="menu-container-links">
+            <div>
+                <img class="menu-image" src="../icones/logo.svg">
+            </div>
+            <div>
+                <a class="menu-padding" href='../index.html'>Home Page</a>
+                <a class="menu-padding" href='../references.html'>Referências</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons-container">
+        <a href="strong.html">
+            <button class="buttons">Anterior</button>
+        </a>
+        <a href="button.html">
+            <button class="buttons">Próximo</button>
+        </a>
+    </div>
+
+    <div class="tag-container">
+        <div>
+            <h1>&lt;picture</article>&gt;</h1>
+            <a>
+                <p>A tag <strong class="color-text-orange">&lt;picture&gt;</strong> oferece aos desenvolvedores web mais flexibilidade na especificação de recursos de imagem.</p>
+
+                <p>O uso mais comum do elemento <strong class="color-text-orange">&lt;picture&gt;</strong> será para direção de arte em designs responsivos. Em vez de ter uma imagem ampliada ou reduzida com base na largura da janela de visualização, várias imagens podem ser projetadas para preencher melhor a janela de visualização do navegador.</p>
+
+                <p>O elemento <strong class="color-text-orange">&lt;picture&gt;</strong> contém duas tags: uma ou mais tags <strong class="color-text-orange">&lt;source&gt;</strong> e uma tag <strong class="color-text-orange">&lt;img&gt;</strong>.</p>
+
+                <p>O navegador procurará o primeiro elemento <strong class="color-text-orange">&lt;source&gt;</strong> onde a consulta de mídia corresponde à largura da janela de visualização atual e, em seguida, exibirá a imagem adequada (especificada no atributo srcset). O elemento <strong class="color-text-orange">&lt;img&gt;</strong> é necessário como o último filho do elemento <strong class="color-text-orange">&lt;picture&gt;</strong>, como uma opção de fallback se nenhuma das tags de origem corresponder.</p>
+
+                <p><strong class="color-text-orange">Dica:</strong> O elemento <strong class="color-text-orange">&lt;picture&gt;</strong> funciona de forma "semelhante" a <strong class="color-text-orange">&lt;video&gt;</strong> e <strong class="color-text-orange">&lt;audio&gt;</strong>. Você configura fontes diferentes, e a primeira fonte que atende às preferências é aquela que está sendo usada.</p>
+            </a>
+        </div>
+
+        <div>
+            <h2>Exemplo</h2>
+            <p>Desenhar um círculo:</p>
+
+            <div class="example-code">
+                <code>
+                    <p>
+                        &lt;picture&gt;<br>
+                        &nbsp;&nbsp;&lt;source media="(min-width:650px)" srcset="img_pink_flowers.jpg"&gt;<br>
+                        &nbsp;&nbsp;&lt;source media="(min-width:465px)" srcset="img_white_flower.jpg"&gt;<br>
+                        &nbsp;&nbsp;&lt;img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;"&gt;<br>
+                        &lt;/picture&gt;
+                    </p>
+                    </code>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h2>Suporte ao navegador</h2>
+                <p>A tag <span class="color-text-orange">&lt;picture&gt;</span> é compatível com todos
+                    os principais navegadores.</p>
+                <img class="tag-image" src="../support/all.svg"><br><br>
+                <p>Os números na tabela especificam a primeira versão do navegador que oferece suporte total ao elemento.</p>
+                <table class="attributte-table">
+                    <tr>
+                        <th class="color-text-orange">Elemento</th>
+                        <th><img class="tag-image-logo" src="../support/Google_Chrome_icon_(February_2022).svg.png"></th> 
+                        <th><img class="tag-image-logo" src="../support/Firefox_logo_2017.svg"></th> 
+                        <th><img class="tag-image-logo" src="../support/Opera_2015_icon.svg"></th> 
+                        <th><img class="tag-image-logo" src="../support/Safari_browser_logo.svg.png"></th>
+                        <th><img class="tag-image-logo" src="../support/1200px-Microsoft_Edge_logo_(2019).svg.png"></th>
+                    </tr>
+                    <tr>
+                        <th>details</th>
+                        <th>38.0</th>
+                        <th>13.0</th>
+                        <th>38.0</th>
+                        <th>9.1</th>
+                        <th>25.0</th>
+                    </tr>
+            </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons-container">
+        <a href="strong.html">
+            <button class="buttons">Anterior</button>
+        </a>
+        <a href="button.html">
+            <button class="buttons">Próximo</button>
+        </a>
+    </div>
+
+    <div class="footer-container">
+        <div>
+            <img class="footer-image" src="../icones/logo.svg">
+        </div>
+        <div>
+            <a class="footer-padding" href="index.html">Início</a>
+            <a class="footer-padding" href="references.html">Referências</a>
+            <a class="footer-padding" href="about.html">Sobre nós</a>
+        </div>
+        <div class="footer-copyright">
+            <a>Copyright&copy;2023</a>
+        </div>
+    </div>
+</body>
+
+</html>
