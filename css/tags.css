@@ -60,6 +60,10 @@ table tr:hover {background-color: #25189b;}
     width: 80vw;
 }
 
+.tag-image-logo {
+    width: 16%;
+}
+
 .output-container {
     height: auto;
     background: #13096c;
