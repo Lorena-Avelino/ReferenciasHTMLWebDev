@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'/>
+    <link rel="stylesheet" type="text/css" href="../css/global.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/about.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/tags.css" media="screen" />
+    <link rel="icon" href="../icones/logo.svg" type="image/svg+xml" />
+    <title>Manual do HTML5</title>
+</head>
+
+<body>
+    <div class="menu-container">
+        <div class="menu-container-links">
+            <div>
+                <img class="menu-image" src="../icones/logo.svg">
+            </div>
+            <div>
+                <a class="menu-padding" href='../index.html'>Home Page</a>
+                <a class="menu-padding" href='../references.html'>Referências</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons-container">
+        <a href="head.html">
+            <button class="buttons">Anterior</button>
+        </a>
+        <a href="link.html">
+            <button class="buttons">Próximo</button>
+        </a>
+    </div>
+
+    <div class="tag-container">
+        <div>
+            <h1>&lt;html&gt;</h1>
+            <a>
+                <p>A tag <span class="color-text-orange">&lt;html&gt;</span> representa a raiz de um documento HTML.</p>
+                <p>A tag <span class="color-text-orange">&lt;html&gt;</span> é o contêiner para todos os outros elementos HTML (exceto para a tag &lt;!DOCTYPE&gt;).</p>
+
+                <p><span class="color-text-orange">Nota:</span> Você deve sempre incluir o atributo lang dentro da tag <span class="color-text-orange">&lt;html&gt;</span>, para declarar o idioma da página da Web. Isto destina-se a ajudar os motores de busca e navegadores.</p>
+            </a>
+        </div>
+
+        <div>
+            <h2> Atributos </h2>
+            <table class="attributte-table">
+                <tr>
+                    <th class="color-text-orange">Atributo</th>
+                    <th class="color-text-orange">Valor</th>
+                    <th class="color-text-orange">Descrição</th>
+                </tr>
+                <tr>
+                    <th><u>xmlns</u></th>
+                    <th><link rel="stylesheet" href="http://www.w3.org/1999/xhtml">http://www.w3.org/1999/xhtml</link></th>
+                    <th>Especifica o atributo de namespace XML (se você precisar que seu conteúdo esteja em conformidade com XHTML)</th>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h2>Exemplo</h2>
+
+            <div class="example-code">
+                <code>
+                    <p>
+                        &lt;!DOCTYPE html&gt;<br>
+                        &lt;html lang="en"&gt;<br>
+                        &lt;head&gt;<br>
+                        &nbsp;&lt;title&gt;Title of the document&lt;/title&gt;<br>
+                        &lt;/head&gt;<br>
+                        &lt;body&gt;<br>
+                        &nbsp;&lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+                        &nbsp;&lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+                        &lt;/body&gt;<br>
+                        &lt;/html&gt;<br>
+                    </p>
+                    </code>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h2>Suporte ao navegador</h2>
+                <p>A tag <span class="color-text-orange">&lt;article&gt;</span> é compatível com todos
+                    os principais navegadores.</p>
+                <img class="tag-image" src="../support/all.svg">
+            </div>
+        </div>
+
+        <div>
+            <h2>Configurações padrão de CSS</h2>
+
+            <div class="example-code">
+                <code>
+                        <p>
+                            html {
+                                <br>
+                                &nbsp;&nbsp;display: block;<br>
+                            }
+                            <br>
+                            <br>
+                            html:focus {
+                                <br>
+                                &nbsp;&nbsp;outline: none;<br>
+                            }
+                        </p>
+                    </code>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="buttons-container">
+        <a href="head.html">
+            <button class="buttons">Anterior</button>
+        </a>
+        <a href="link.html">
+            <button class="buttons">Próximo</button>
+        </a>
+    </div>
+
+    <div class="footer-container">
+        <div>
+            <img class="footer-image" src="../icones/logo.svg">
+        </div>
+        <div>
+            <a class="footer-padding" href="index.html">Início</a>
+            <a class="footer-padding" href="references.html">Referências</a>
+            <a class="footer-padding" href="about.html">Sobre nós</a>
+        </div>
+        <div class="footer-copyright">
+            <a>Copyright&copy;2023</a>
+        </div>
+    </div>
+</body>
+</html>
