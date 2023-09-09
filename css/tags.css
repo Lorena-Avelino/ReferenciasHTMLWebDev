@@ -9,6 +9,10 @@ td, th {
     padding: 10px 5px 10px 5px;
 }
 
+ul {
+    padding-left: 30px;
+}
+
 table tr:hover {background-color: #25189b;}
 
 .buttons-container {

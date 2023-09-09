@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../css/about.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../css/tags.css" media="screen" />
     <link rel="icon" href="../icones/logo.svg" type="image/svg+xml" />
-    <title>Manual do HTML5</title>
+    <title>Referências HTML5</title>
 </head>
 
 <body>
@@ -24,10 +26,10 @@
     </div>
 
     <div class="buttons-container">
-        <a href="article.html">
+        <a href="center.html">
             <button class="buttons">Anterior</button>
         </a>
-        <a href="article.html">
+        <a href="h1h6.html">
             <button class="buttons">Próximo</button>
         </a>
     </div>
@@ -38,13 +40,12 @@
             <a>
                 <p>A tag <span class="color-text-orange">&lt;details&gt;</span> especifica detalhes adicionais que o usuário pode abrir e fechar sob demanda.
 
-                       <p> A tag <span class="color-text-orange">&lt;details&gt;</span> é frequentemente usada para criar um widget interativo que o usuário pode abrir e fechar. Por padrão, o widget está fechado. Quando aberto, ele se expande e exibe o conteúdo contido nele. </p>
+                    <p> A tag <span class="color-text-orange">&lt;details&gt;</span> é frequentemente usada para criar um widget interativo que o usuário pode abrir e fechar. Por padrão, o widget está fechado. Quando aberto, ele se expande e exibe o conteúdo contido nele. </p>
                         
-                        <p>Qualquer tipo de conteúdo pode ser colocado dentro da tag <span class="color-text-orange">&lt;details&gt;</span>. </p>
+                    <p>Qualquer tipo de conteúdo pode ser colocado dentro da tag <span class="color-text-orange">&lt;details&gt;</span>. </p>
                         
-                       <p>  Dica: A tag <span class="color-text-orange">&lt;sumary&gt;</span> é usada em conjunto com <span class="color-text-orange">&lt;details&gt;</span> para especificar um cabeçalho visível para os detalhes. </p>
+                    <p>Nota: A tag <span class="color-text-orange">&lt;sumary&gt;</span> é usada em conjunto com <span class="color-text-orange">&lt;details&gt;</span> para especificar um cabeçalho visível para os detalhes. </p>
                 </p>
-
             </a>
         </div>
 
@@ -61,7 +62,7 @@
                     <th>open</th>
                     <th>Especifica que os detalhes devem estar visíveis (abertos) para o usuário.</th>
                 </tr>
-        </table>
+            </table>
         </div>
 
         <div>
@@ -71,18 +72,10 @@
             <div class="example-code">
                 <code>
                     <p>
-                        &lt;!DOCTYPE html&gt;<br>
-                        &nbsp;&nbsp;&lt;html&gt;<br>
-
-                        &lt;body&gt;<br>
-                        &nbsp;&nbsp;&nbsp;&lt;h1> A Tag Details! &lt;/h1&gt;<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;details&gt;<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;sumary&gt; Montes Claros Shopping!&lt;/sumary&gt;<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt; Montes Claros Shopping é considerado um dos maiores Shoppings do Norte de Minas por situar em uma das maiores cidades dessa região. Neste local, possui Fliperama, area de alimentção, no centro do shopping possui atrações magnificas, um exemplo foi uma representação de hogwarts para os fãs de Harry Potter. Há também o cinema com os dispositivos de ultima geração para a transmissão dos filmes!&lt;/p&gt;<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/details&gt;
-                        <br>
-                        &lt;/body&gt;<br>
-                        &lt;/html&gt;<br>
+                        &lt;details&gt;<br>
+                        &nbsp;&lt;sumary&gt; Montes Claros Shopping!&lt;/sumary&gt;<br>
+                        &nbsp;&lt;p&gt; Montes Claros Shopping é considerado um dos maiores Shoppings do Norte de Minas por situar em uma das maiores cidades dessa região. Neste local, possui Fliperama, area de alimentção, no centro do shopping possui atrações magnificas, um exemplo foi uma representação de hogwarts para os fãs de Harry Potter. Há também o cinema com os dispositivos de ultima geração para a transmissão dos filmes!&lt;/p&gt;<br>
+                        &lt;/details&gt;
                     </p>
                     </code>
             </div>
@@ -91,18 +84,16 @@
         <div>
             <div>
                 <h2>Suporte ao navegador</h2>
-                <p>A tag <span class="color-text-orange">&lt;details&gt;</span> é compatível com todos
-                    os principais navegadores, porém foi apenas apartir das seguintes versões que começaram a ser compativeis: </p>
-                <img class="tag-image" src="../support/all.svg"><br><br>
+
                 <p>Os números na tabela especificam a primeira versão do navegador que oferece suporte total ao elemento.</p>
                 <table class="attributte-table">
                     <tr>
                         <th class="color-text-orange">Elemento</th>
-                        <th><img class="tag-image-logo" src="../support/Google_Chrome_icon_(February_2022).svg.png"></th> 
-                        <th><img class="tag-image-logo" src="../support/Firefox_logo_2017.svg"></th> 
-                        <th><img class="tag-image-logo" src="../support/Opera_2015_icon.svg"></th> 
-                        <th><img class="tag-image-logo" src="../support/Safari_browser_logo.svg.png"></th>
-                        <th><img class="tag-image-logo" src="../support/1200px-Microsoft_Edge_logo_(2019).svg.png"></th>
+                        <th><img class="tag-image-logo" src="../support/Google_Chrome.png"></th> 
+                        <th><img class="tag-image-logo" src="../support/Firefox.svg"></th> 
+                        <th><img class="tag-image-logo" src="../support/Opera.svg"></th> 
+                        <th><img class="tag-image-logo" src="../support/Safari.png"></th>
+                        <th><img class="tag-image-logo" src="../support/Microsoft_Edge.png"></th>
                     </tr>
                     <tr>
                         <th>details</th>
@@ -112,18 +103,13 @@
                         <th>6.0</th>
                         <th>15.0</th>
                     </tr>
-            </table>
+                </table>
 
             </div>
         </div>
 
         <div>
             <h2>Configurações padrão de CSS</h2>
-            <p>
-                A maioria dos navegadores exibirá o elemento <span class="color-text-orange">&lt;details&gt;</span> com
-                os seguintes valores padrão:
-            </p>
-
 
             <div class="example-code">
                 <code>
@@ -131,7 +117,7 @@
                             details {
                                 <br>
                                 &nbsp;&nbsp;display: block;<br>
-                              }
+                            }
                         </p>
                     </code>
             </div>
@@ -140,10 +126,10 @@
     </div>
 
     <div class="buttons-container">
-        <a href="article.html">
+        <a href="center.html">
             <button class="buttons">Anterior</button>
         </a>
-        <a href="article.html">
+        <a href="h1h6.html">
             <button class="buttons">Próximo</button>
         </a>
     </div>
@@ -162,5 +148,4 @@
         </div>
     </div>
 </body>
-
 </html>
